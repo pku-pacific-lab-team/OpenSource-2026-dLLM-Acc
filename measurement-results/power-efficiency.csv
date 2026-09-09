@@ -1,0 +1,3 @@
+board,precision,supply_V,active_cores,cal,frequency_MHz,total_current_mA,static_current_mA,dynamic_current_mA,power_mW,throughput_GOPS,energy_efficiency_TOPS_per_W
+COB3,W4A4,0.55,16,yes,108,77.5,16,61.5,42.625,1769.472,41.5
+COB3,W4A8,0.55,16,yes,108,85.3,16,69.3,46.915,884.736,18.9

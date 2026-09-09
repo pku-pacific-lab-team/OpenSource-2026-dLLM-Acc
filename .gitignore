@@ -1,0 +1,55 @@
+# Local machine and editor files.
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+~$*
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+
+# Regenerable simulation and tool output.
+build/
+obj_dir/
+simv
+simv.daidir/
+csrc/
+*.log
+*.vcd
+*.fst
+*.fsdb
+
+# Physical-design and library deliverables are outside this release.
+*.avmcfg
+*.cdl
+*.cdl.gz
+*.db
+*.db.gz
+*.gds
+*.gds.gz
+*.gds2
+*.gds2.gz
+*.ilm
+*.lef
+*.lef.gz
+*.lib
+*.lib.gz
+*.masis
+*.oa
+*.sdf
+*.sdf.gz
+*.sp
+*.sp.gz
+*.spef
+*.spef.gz
+*.spi
+*.spi.gz
+
+# This ignore file is a convenience, not a release-content audit.
+# Compiler-generated Verilog and restricted source can use ordinary RTL suffixes.

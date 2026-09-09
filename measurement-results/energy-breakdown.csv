@@ -1,0 +1,25 @@
+subsystem,component,sub_component,condition,value,unit
+Accelerator subsystem,Static energy,,,8.8,mW
+Accelerator subsystem,W4A4 compute,Cache-PE,average,0.0308,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=100%,0.0192,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=90%,0.0239,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=80%,0.0289,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=70%,0.0339,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=60%,0.0342,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=50%,0.0356,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=40%,0.0365,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=30%,0.0386,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=20%,0.0387,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=10%,0.0403,pJ/op
+Accelerator subsystem,W4A4 compute,Cache-PE,CR=0%,0.0403,pJ/op
+Accelerator subsystem,W4A4 compute,Activation read and decode,,0.159,pJ/4bit
+Accelerator subsystem,W4A8 compute,Cache-PE,,0.0490,pJ/op
+Accelerator subsystem,W4A8 compute,Activation read and decode,,0.127,pJ/8bit
+Accelerator subsystem,Output buffer write,,,0.0240,pJ/bit
+Accelerator subsystem,Weight buffer load,,,0.0308,pJ/bit
+CPU,Static energy,,,3.0,mW
+CPU,SRAM read/write,,,0.0281,pJ/bit
+UMV core,Static energy,,,4.3,mW
+UMV core,W4A8 MAC,,,0.186,pJ/op
+UMV core,W4A4 MAC,,,0.093,pJ/op
+UMV core,BF16 multiply,,,1.16,pJ/op
